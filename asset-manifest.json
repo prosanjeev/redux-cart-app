@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/redux-cart-app/static/js/main.91278bee.js",
+    "index.html": "/redux-cart-app/index.html",
+    "main.91278bee.js.map": "/redux-cart-app/static/js/main.91278bee.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.91278bee.js"
+  ]
+}
