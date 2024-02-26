@@ -24,10 +24,10 @@ const ProductGrid = () => {
     }
   }, [dispatch, selectedCategory]);
 
-  useEffect(() => {
-    const filtered = products.filter(product => product.price <= priceRange[1]);
-    setFilteredProducts(filtered);
-  }, [products, priceRange]);
+  // useEffect(() => {
+  //   const filtered = products.filter(product => product.price <= priceRange[1]);
+  //   setFilteredProducts(filtered);
+  // }, [products, priceRange]);
 
   const handlePriceChange = (newRange) => {
     setPriceRange(newRange);
@@ -39,11 +39,11 @@ const ProductGrid = () => {
 
   return (
     <HStack>
-      <PriceFilter minPrice={0} maxPrice={getMaxPrice(products)} value={priceRange} onChange={handlePriceChange} />
+      {/* <PriceFilter minPrice={0} maxPrice={getMaxPrice(products)} value={priceRange} onChange={handlePriceChange} /> */}
       <Stack px={{ md: '20', base: '0' }}>
-        <Text fontSize='40px' fontWeight='600'>{selectedCategory}</Text>
+        <Text fontSize={{md:'40px', base:'32px' }} fontWeight='600'>{selectedCategory}</Text>
         <HStack mt={10} gap={10} flexWrap='wrap' mx='auto'>
-          {filteredProducts.map((product) => (
+          {products.map((product) => (
             <Product key={product.id} product={product} />
           ))}
         </HStack>
