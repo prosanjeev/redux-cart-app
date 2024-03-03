@@ -1,4 +1,7 @@
 # Getting Started with Create React App
+![redux-cart-app-1](https://github.com/prosanjeev/redux-cart-app/assets/154009697/947e006e-267e-4246-a010-438199b1aa77)
+![redux-cart-app-2](https://github.com/prosanjeev/redux-cart-app/assets/154009697/d8933d2c-76f8-4aac-be52-2f97646880f4)
+![redux-cart-app-3](https://github.com/prosanjeev/redux-cart-app/assets/154009697/e0b9fc81-28e7-4f92-907f-b91f010bfc9e)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
